@@ -1,4 +1,7 @@
 body {
+  background-image: url("hatter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: sans-serif;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -40,16 +43,52 @@ h2 {
 }
 
 p.imgtitle {
+  height: 130%;
+  font-style: italic;
+  text-align: center;
   font-size: 1.1em;
   margin: 0;
 }
 
 table,
 .frame {
+  background-color: rgba(227, 225, 233, 0.8);
   border: 3px solid green;
+}
+
+table{
+  border-collapse: collapse;
+  float: left;
+  margin-right: 20px;
+}
+
+table th{
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+table td{
+  text-align: center;
+  padding: 15px;
+  border: 1px solid black
 }
 
 a:link,
 a:visited {
   color: blue;
+}
+
+p{
+  text-align: justify;
+  text-indent: 25px;
+}
+
+a, a :hover{
+  text-decoration: none;
+}
+
+a:hover{
+  color:yellow;
 }
